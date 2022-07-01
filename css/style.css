@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+.header{
+    display: flex;
+    margin: 75px 165px 185px;
+    justify-content: space-between;
+}
+
+ .header ul {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    gap: 25px;
+}
+#menu{
+    display: none;
+}
+ul a{
+    text-decoration: none;
+    color: #242E52;
+}
+ul a:hover{
+    color: #F3603B;
+}
+
+.boton , 
+.boton2 , 
+.boton3{
+    background-color: #F3603B;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    height: 44px;
+    padding: 13px 29px;
+    text-decoration: none;
+    width: 134px;  
+    bottom: 65px;
+}
+.boton2{
+    margin-top: 40px;
+}
+
+.boton:hover , 
+.boton2:hover , 
+.boton3:hover{
+    color: #242E52;
+}
+.contenedor1 , .contenedor2{
+    display: flex;
+    justify-content: space-between;
+    margin: 165px;
+}
+.contenedor1 , .contenedor2 div{
+    color: #8C8C94;
+}
+article{
+    color:#000000;
+    font-size: 16.5px;
+    height: 386px;
+    width: 439px;   
+}
+#titular{
+    color: #232C50;
+    font-size: 58px;
+    margin-bottom: 28px;
+}
+.contenedor2 .boton{
+    margin-top: 28px;
+}
+.contenedor2 h2{
+    color: #232851;
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+#numeros{
+    background-color: #F3603B;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    height: 43px;
+    padding: 13px 29px;
+    width: 69px;  
+    bottom: 65px;
+
+}
+.lista2{
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.lista2 h3{
+    margin-bottom: 10px;
+    color: #323851;
+}
+.lista2 li{
+    color: #B3B2B7;
+    display: flex;
+    gap: 23px;
+    margin-bottom: 42px;
+}
+#titular3{
+    color:#242E53;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+#personas , #personas2{
+    background-color:#FAFAFA;
+    color: #3F4868;
+    font-size: 16px;
+    height: 219px;
+    margin: 71px 0px ;
+    text-align: center;
+    width: 500px;
+}
+#personas div, #personas2 div{
+    color: #B9B9C1;
+}
+#personas .texto , #personas2 .texto{
+    padding: 21px 21px 38.5px;
+}
+#personas img , #personas2 img{
+    position: relative;
+    left: 1%;
+    top:-20px;
+}
+
+.clientes{
+    display: flex;
+    margin: 71px 71px 57px 71px;
+}
+
+#botonclientes{
+    text-align: center;
+}
+
+.prefooter{
+    background-color: #F3603B;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    height: 224px;
+    justify-content: space-between;
+    margin-top: 192px;
+    padding: 60px 165px;
+   
+}
+.vinculos{
+    display: flex;
+    gap: 80px;
+}
+.prefooter h2{
+    height: 96px;
+    width: 438px;
+    font-size: 40px;
+}
+
+#botonblanco{
+    background-color:white;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    color:#F3603B ;
+    display: inline-block;
+    font-size: 13px;
+    height: 44px;
+    margin-top: 30px;
+    padding: 13px 29px;
+    text-decoration: none;
+    width: 134px;  
+    bottom: 65px;
+
+}
+#botonblanco:hover{
+    background-color: #232851;
+}
+footer{
+    background-color: #1E1E26;
+    color: white;
+    display: flex;
+    height: 247px;
+    justify-content: space-around;
+    padding: 65px 165px;
+}
+#secciones{
+    color: white;
+    display: flex;
+   margin-top: 25px;
+   flex-direction: column;
+   text-decoration: none;
+}
+#secciones .redes{
+    display: flex;
+    margin-top: 60px;
+}
+.redes a{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    gap: 13px;
+    margin-left: 10px;
+}
+#redes ul a{
+   color: white;
+}
+.listafooter a{
+    color: white;
+    display: block;
+    margin-top: 12px;
+    position: relative;
+    right: -150px;
+    text-decoration: none;
+   
+
+}
+.email{
+    display: flex;
+    flex-direction: row;
+}
+.mensaje{
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    color:#A0A0A0;
+    display: inline-block;
+    font-size: 13px;
+    height: 44px;
+    padding: 12px 21px;
+    position: relative;
+    right: -250px;
+    text-decoration: none;
+    width: 200px;  
+}
+.botongo{
+    background-color: #F3603B;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    height: 42px;
+    padding: 12px 21px;
+    position: relative;
+    right: -260px;
+    width: 63px;  
+   
+}
+.botongo:hover{
+    color: #242E52;
+}
+.ultimobloque{
+    display: flex;
+    flex-direction: column;
+}
+ h4{
+    color: #8C8C94;
+    font-size: 13px;
+    left: -55px;
+    position: relative;
+    top: 100px;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        padding-left: 40px;
+    }
+    main{
+        width: 600px;
+    }
+      article{
+        font-size: 20px;
+        height: 300px;
+        margin-left: 60px;
+        width: 500px;
+      }
+     .header ul , .boton{
+        display: none;
+        margin: 20px;
+     }
+     .header{
+        margin: 60px;
+     }
+     .header img{
+        width: 230px;
+     }
+     #menu{
+        font-size: 40px;
+        display: block;
+        margin-left: 350px;
+        margin-top: -12px;
+     }
+     .contenedor1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 60px 100px;
+     }
+    .contenedor1 #titular {
+        font-size: 50px;
+        text-align: center;
+    }
+    .contenedor1 img{
+        margin: 30px 95px;
+        height: 400px;
+        width: 460px;
+    }
+    .contenedor1 div{
+        color: #A0A0A0;
+        font-size: 25px;
+        text-align: justify;
+    }
+    .contenedor1 .boton2{
+         margin: 42px 180px 60px;
+    }
+
+    .contenedor2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 120px;
+    }
+    .contenedor2 .lista2{
+        margin-top: 10px;
+    }
+    .lista2 li{
+        color: #B3B2B7;
+        display: flex;
+        gap: 23px;
+        margin-bottom: 42px;
+        margin-left: -80px;
+        width: 650px;
+    }
+
+    .seccion__clientes{
+        margin-top: 50px;
+        width: fit-content;
+    }
+    #botonclientes{
+        margin: 40px 20px 60px;
+        padding-left: 50px;
+    }
+    .clientes{
+        margin-bottom: 30px;
+        margin-left: 140px;
+        margin-top: 0px;
+        height: 280px;
+    }
+    #titular3{
+        padding-left: 30px;
+        padding-top: 200px;
+    }
+    #personas{
+        display: none;
+    }
+    #personas2{
+        height: 220px;
+    }
+    .prefooter{
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+        margin-left:-40px;
+        margin-top: 0px;
+        padding: 50px 285px;
+        width: 880px;
+    }
+    .prefooter h2{
+        margin-bottom: 20px;
+        width: 300px;
+    }
+    #botonblanco{
+        display: block;
+        left: 60px;
+        margin: 70px 60px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        margin-left: -40px;
+        padding: 65px 250px;
+        width: 880px;
+    }
+    #secciones{
+        display: flex;
+        flex-direction: column-reverse;
+        order: 0;
+    }
+    #secciones img{
+        margin-left: 70px;
+        width: 200px;
+    }
+    #secciones .redes{
+        margin-left: 80px;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+    .logos_redes{
+        font-size: 30px;
+        height: min-content;
+        width: 10vw;
+    }
+    .ultimobloque h4{
+        margin: 40px 60px;
+    }
+    .vinculos{
+        gap: 120px;
+        line-height: 30px;
+        margin: 0px -110px;
+        order: -1;
+    }
+    .mensaje{
+        justify-content: center;
+        margin-left: -50px;
+        width: 300px;
+    }
+    .botongo{
+        width: 80px;
+    }
+    .email{
+        margin: 0px -200px;
+        order: -2;
+    }
+    h4{
+        left: 55px;
+        top: 20px;
+    }
+}
+    
+
